@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body 
+{
+    width: 50%;
+    margin: 2rem auto;
+    background-color: #201b2c;
+}
+
+div 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #2f2841;
+    padding: 0.7rem;
+    border-radius: 8px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+input, button 
+{
+    width: 98%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+    border-radius: 8px;
+    background:#514869;
+    box-shadow: 0px 10px 40px #00000056;
+    color: #f0ffff94;
+    font-weight: 800;
+}
+
+.input::placeholder
+{
+    color: #f0ffff94;
+}
+
+button 
+{
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.success 
+{
+    background-color:#00ff88;
+    color: #2b134b;
+    font-weight: 800;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.delete 
+{
+    background-color: rgb(231, 54, 54);
+    color: rgb(255, 255, 255);
+}
+
+
+table 
+{
+    background-color: #00ff88;
+    margin-top: 25px;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 8px;
+    color: #2b134b;
+    padding: 16px 0px;
+    box-shadow: 0px 10px 40px -12px #00ff0052;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: small;
+}
+
+th, td 
+{
+    padding: 5px 25px;
+    text-align: left;
+    border-bottom: 1px solid;
+    box-shadow:  10px 40px -12px #00ff0052;
+}
+
+.nova
+{
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 0%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color:#2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff0052;   
+    align-items: center;
+    justify-content: center;
+}
+
